@@ -18,7 +18,7 @@ int SumOfArray(int *ptr27,int size27){
 
 void Reverse_Of_A_Array(int *ptr28,int size28){
     if (size28<=0){
-        return 0;
+        return ;
     }
     for (int i=size28-1;i>=0;i--){
         printf("%d\t",ptr28[i]);
